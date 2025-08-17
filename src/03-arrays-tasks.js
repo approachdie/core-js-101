@@ -460,16 +460,16 @@ function sortCitiesArray(arr) {
  *           [0,0,0,1,0],
  *           [0,0,0,0,1]]
  */
-function getIdentityMatrix(n) {
-  let result = [];
-
-  result = Array(n)
-    .fill()
-    .map((a, b) => Array(n)
-      .fill()
-      .map((i, j) => (b === j ? 1 : 0)));
-
-  return result;
+function getIdentityMatrix(/* n */) {
+  // let result = [];
+  // result = Array(n)
+  //   .fill()
+  //   .map((a, b) =>
+  //     Array(n)
+  //       .fill()
+  //       .map((i, j) => (b === j ? 1 : 0))
+  //   );
+  // return result;
 }
 
 /**
